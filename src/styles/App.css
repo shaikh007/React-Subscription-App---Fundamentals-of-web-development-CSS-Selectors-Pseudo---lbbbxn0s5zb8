@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    background-color: rgb(24, 42, 59);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    line-height: 1.4;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.community {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgb(255, 253, 253);
+}
+
+.community-title-meta {
+    color: rgb(101, 155, 59);
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.community-header {
+    color: rgb(110, 241, 254);
+}
+
+.community-desciption {
+    max-width: 60ch;
+    line-height: 1.5;
+    color: rgb(155, 166, 189);
+    font-weight: 600;
+}
+
+.why-us {
+    background-color: rgba(85, 145, 142, 0.698);
+    flex-grow: 1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.card {
+    background-color: rgb(15, 67, 66);
+    flex-grow: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.card-header {
+    margin: 1.33rem;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.card-details {
+    display: flex;
+}
+
+.sign-up-btn {
+    background-color: rgb(102, 153, 0);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 11px;
+    margin-top: 1rem;
+    min-width: 10rem;
+}
+
+@media (max-width: 600px) {
+    /* max-width: 600px --> apply css to those screen whose width is 600px or below */
+    .card-details {
+        flex-direction: column;
+    }
+}
